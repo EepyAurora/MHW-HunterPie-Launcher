@@ -2,8 +2,8 @@ import os
 import subprocess
 
 # Paths to the game and the mod
-mhw_path = r"C:\Program Files (x86)\Steam\steamapps\common\Monster Hunter World\MonsterHunterWorld.exe"
-hunterpie_path = r"C:\Users\Calxb\Desktop\HunterPie-2645-1-0-5-1697608499\HunterPie.exe"
+mhw_path = r"input path here"
+hunterpie_path = r"input path here"
 
 def launch(mhw_path, hunterpie_path):
     if os.path.exists(mhw_path):
